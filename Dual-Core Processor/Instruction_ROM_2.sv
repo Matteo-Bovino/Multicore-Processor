@@ -10,7 +10,7 @@ module Instruction_ROM_2(
                 
         initial 
         begin
-        $readmemh("Instruction_cache_2.mem", instruction_ROM);//For testing purposes the instruction memory is filled using an initial coefficient file
+                $readmemh("Instruction_ROM2.mem", instruction_ROM);//For testing purposes the instruction memory is filled using an initial coefficient file
         end                                                    // containing the Fibonacci sequence
 
         always_comb
