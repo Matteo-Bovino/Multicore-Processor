@@ -5,12 +5,12 @@ module Instruction_ROM_2(
         input logic [31:0] A,
         output logic [31:0] RD
     );
-        logic [31:0] instruction_ROM [0:127];
+        (* rom_style = "distributed" *) logic [31:0] instruction_ROM [0:127];
         logic [6:0] AT;
                 
         initial 
         begin
-                $readmemh("Instruction_ROM2.mem", instruction_ROM);//For testing purposes the instruction memory is filled using an initial coefficient file
+                $readmemh("Instruction_core_2.mem", instruction_ROM);//For testing purposes the instruction memory is filled using an initial coefficient file
         end                                                    // containing the Fibonacci sequence
 
         always_comb
