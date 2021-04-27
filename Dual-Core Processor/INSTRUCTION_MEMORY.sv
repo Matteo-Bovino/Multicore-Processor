@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module Instruction_cache(
+module Instruction_ROM(
         
         input logic [31:0] A,
         output logic [31:0] RD
