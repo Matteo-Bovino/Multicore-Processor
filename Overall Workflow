@@ -1,15 +1,12 @@
-To develop the 32 bit dual-core MIPS processor in the Nexys4 DDR board environment I will follow this schedule:
+To develop the 32 bit dual-core MIPS processor in the Vivado environment I will follow this schedule:
 
 - Single cycle MIPS processor containing all the basic elements.
 - Pipeline the single cycle processor into multiple stages.
-- Simulation of basic functionalities.
-- Development of a Two-way superscalar MIPS processor.
-- Simulation and comparison between the superscalar and the pipelined processor.
+- Simulation of the basic functionalities, i.e. stage to stage analysis.
 - Complete core development including caches.
-- Testing the core with simple C programs.
-- Addition of another core based on the same superscalar design.
-- Implementing the coherency protocol and mechanism.
-- Adapting the design to better suite the board environment.
-- Record results using the VGA display.
+- Testing the core with serial assembly programs.
+- Addition of another core based on the same pipelined design.
+- Implementing the coherency protocol and the shared memory mechanism.
+- Testing the core with parallel assembly programs.
 
 Any challenges and exceptions will be mentioned in the logbooks.
