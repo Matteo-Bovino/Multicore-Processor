@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Dual_Core_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Dual_Core" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2974372200fs"></ZoomStartTime>
+      <ZoomEndTime time="3074172201fs"></ZoomEndTime>
+      <Cursor1Time time="3005572000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="124" />
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/fetch_1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/fetch_1/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/fetch_1/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/fetch_1/instruction_pls" type="array">
+      <obj_property name="ElementShortName">instruction_pls[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_pls[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/fetch_1/hlt" type="logic">
+      <obj_property name="ElementShortName">hlt</obj_property>
+      <obj_property name="ObjectShortName">hlt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/fetch_2/pc" type="array">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/fetch_2/instruction_pls" type="array">
+      <obj_property name="ElementShortName">instruction_pls[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_pls[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/fetch_2/hlt" type="logic">
+      <obj_property name="ElementShortName">hlt</obj_property>
+      <obj_property name="ObjectShortName">hlt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/execute_2/multdiv_unit_1/res64" type="array">
+      <obj_property name="ElementShortName">res64[63:0]</obj_property>
+      <obj_property name="ObjectShortName">res64[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/prediction_2/taken" type="array">
+      <obj_property name="ElementShortName">taken[1:0]</obj_property>
+      <obj_property name="ObjectShortName">taken[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/prediction_2/taken" type="array">
+      <obj_property name="ElementShortName">taken[1:0]</obj_property>
+      <obj_property name="ObjectShortName">taken[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/prediction_2/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/decode_1/wr_reg_en_d" type="logic">
+      <obj_property name="ElementShortName">wr_reg_en_d</obj_property>
+      <obj_property name="ObjectShortName">wr_reg_en_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/decode_1/wr_reg_addr_d" type="array">
+      <obj_property name="ElementShortName">wr_reg_addr_d[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_reg_addr_d[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/decode_1/reg_file_1/reg_file" type="array">
+      <obj_property name="ElementShortName">reg_file[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/decode_1/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[5:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/execute_1/mfhi_ex" type="logic">
+      <obj_property name="ElementShortName">mfhi_ex</obj_property>
+      <obj_property name="ObjectShortName">mfhi_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/decode_1/mflo_ex" type="logic">
+      <obj_property name="ElementShortName">mflo_ex</obj_property>
+      <obj_property name="ObjectShortName">mflo_ex</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/execute_1/lo_reg" type="array">
+      <obj_property name="ElementShortName">lo_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">lo_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/execute_1/res_lo_ex" type="array">
+      <obj_property name="ElementShortName">res_lo_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res_lo_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/res_lo_mem" type="array">
+      <obj_property name="ElementShortName">res_lo_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res_lo_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/execute_1/hi_lo_ex" type="array">
+      <obj_property name="ElementShortName">hi_lo_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">hi_lo_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/forwarding_unit_1/forwardA" type="array">
+      <obj_property name="ElementShortName">forwardA[2:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardA[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/forwarding_unit_1/forwardB" type="array">
+      <obj_property name="ElementShortName">forwardB[2:0]</obj_property>
+      <obj_property name="ObjectShortName">forwardB[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/forwarding_unit_1/forward_hi_lo" type="logic">
+      <obj_property name="ElementShortName">forward_hi_lo</obj_property>
+      <obj_property name="ObjectShortName">forward_hi_lo</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/forwarding_unit_1/forward_hi_lo_next" type="logic">
+      <obj_property name="ElementShortName">forward_hi_lo_next</obj_property>
+      <obj_property name="ObjectShortName">forward_hi_lo_next</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/decode_1/alu_src" type="array">
+      <obj_property name="ElementShortName">alu_src[1:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_src[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/decode_2/wr_reg_en_d" type="logic">
+      <obj_property name="ElementShortName">wr_reg_en_d</obj_property>
+      <obj_property name="ObjectShortName">wr_reg_en_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/decode_2/wr_reg_addr_d" type="array">
+      <obj_property name="ElementShortName">wr_reg_addr_d[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_reg_addr_d[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/decode_2/reg_file_1/reg_file" type="array">
+      <obj_property name="ElementShortName">reg_file[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_file[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/decode_2/alu_control" type="array">
+      <obj_property name="ElementShortName">alu_control[5:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_control[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/decode_2/alu_src" type="array">
+      <obj_property name="ElementShortName">alu_src[1:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_src[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/execute_1/taken" type="array">
+      <obj_property name="ElementShortName">taken[1:0]</obj_property>
+      <obj_property name="ObjectShortName">taken[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/execute_1/res64" type="array">
+      <obj_property name="ElementShortName">res64[63:0]</obj_property>
+      <obj_property name="ObjectShortName">res64[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/execute_1/res_ex" type="array">
+      <obj_property name="ElementShortName">res_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/execute_1/sourceB_mem" type="array">
+      <obj_property name="ElementShortName">sourceB_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sourceB_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/execute_2/taken" type="array">
+      <obj_property name="ElementShortName">taken[1:0]</obj_property>
+      <obj_property name="ObjectShortName">taken[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/execute_2/res64" type="array">
+      <obj_property name="ElementShortName">res64[63:0]</obj_property>
+      <obj_property name="ObjectShortName">res64[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/execute_2/res_ex" type="array">
+      <obj_property name="ElementShortName">res_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/execute_2/sourceB_mem" type="array">
+      <obj_property name="ElementShortName">sourceB_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sourceB_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/store_hb_mem" type="array">
+      <obj_property name="ElementShortName">store_hb_mem[1:0]</obj_property>
+      <obj_property name="ObjectShortName">store_hb_mem[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/mem_data_out" type="array">
+      <obj_property name="ElementShortName">mem_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_data_1/data_cache" type="array">
+      <obj_property name="ElementShortName">data_cache[0:3][127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_cache[0:3][127:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/cache_data_src" type="logic">
+      <obj_property name="ElementShortName">cache_data_src</obj_property>
+      <obj_property name="ObjectShortName">cache_data_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_controller_1/cache_data_src" type="logic">
+      <obj_property name="ElementShortName">cache_data_src</obj_property>
+      <obj_property name="ObjectShortName">cache_data_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/read_data_mem" type="array">
+      <obj_property name="ElementShortName">read_data_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/store_hb_mem" type="array">
+      <obj_property name="ElementShortName">store_hb_mem[1:0]</obj_property>
+      <obj_property name="ObjectShortName">store_hb_mem[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/mem_data_out" type="array">
+      <obj_property name="ElementShortName">mem_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_data_1/data_cache" type="array">
+      <obj_property name="ElementShortName">data_cache[0:3][127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_cache[0:3][127:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/read_data_mem" type="array">
+      <obj_property name="ElementShortName">read_data_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read_data_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/write_back_1/res_wb" type="array">
+      <obj_property name="ElementShortName">res_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res_wb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/write_back_2/res_wb" type="array">
+      <obj_property name="ElementShortName">res_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res_wb[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/hazard_1/stall_fetch_now" type="logic">
+      <obj_property name="ElementShortName">stall_fetch_now</obj_property>
+      <obj_property name="ObjectShortName">stall_fetch_now</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/hazard_1/stall_fetch_now_2" type="logic">
+      <obj_property name="ElementShortName">stall_fetch_now_2</obj_property>
+      <obj_property name="ObjectShortName">stall_fetch_now_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/hazard_1/stall_decode_now" type="logic">
+      <obj_property name="ElementShortName">stall_decode_now</obj_property>
+      <obj_property name="ObjectShortName">stall_decode_now</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/hazard_1/stall_decode_now_2" type="logic">
+      <obj_property name="ElementShortName">stall_decode_now_2</obj_property>
+      <obj_property name="ObjectShortName">stall_decode_now_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/hazard_1/stall_execute_now" type="logic">
+      <obj_property name="ElementShortName">stall_execute_now</obj_property>
+      <obj_property name="ObjectShortName">stall_execute_now</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/hazard_1/stall_execute_now_2" type="logic">
+      <obj_property name="ElementShortName">stall_execute_now_2</obj_property>
+      <obj_property name="ObjectShortName">stall_execute_now_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/hazard_1/stall_mem_wb_now" type="logic">
+      <obj_property name="ElementShortName">stall_mem_wb_now</obj_property>
+      <obj_property name="ObjectShortName">stall_mem_wb_now</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/hazard_1/stall_mem_wb_now_2" type="logic">
+      <obj_property name="ElementShortName">stall_mem_wb_now_2</obj_property>
+      <obj_property name="ObjectShortName">stall_mem_wb_now_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/mem_data_in" type="array">
+      <obj_property name="ElementShortName">mem_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/mem_data_in_2" type="array">
+      <obj_property name="ElementShortName">mem_data_in_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_in_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/main_mem_wr" type="logic">
+      <obj_property name="ElementShortName">main_mem_wr</obj_property>
+      <obj_property name="ObjectShortName">main_mem_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/main_mem_wr_2" type="logic">
+      <obj_property name="ElementShortName">main_mem_wr_2</obj_property>
+      <obj_property name="ObjectShortName">main_mem_wr_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/mem_rd" type="logic">
+      <obj_property name="ElementShortName">mem_rd</obj_property>
+      <obj_property name="ObjectShortName">mem_rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/mem_rd_2" type="logic">
+      <obj_property name="ElementShortName">mem_rd_2</obj_property>
+      <obj_property name="ObjectShortName">mem_rd_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/rst_dly" type="logic">
+      <obj_property name="ElementShortName">rst_dly</obj_property>
+      <obj_property name="ObjectShortName">rst_dly</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/rst_dly_2" type="logic">
+      <obj_property name="ElementShortName">rst_dly_2</obj_property>
+      <obj_property name="ObjectShortName">rst_dly_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/w_sel" type="array">
+      <obj_property name="ElementShortName">w_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">w_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/w_sel_2" type="array">
+      <obj_property name="ElementShortName">w_sel_2[1:0]</obj_property>
+      <obj_property name="ObjectShortName">w_sel_2[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/addr_core_1" type="array">
+      <obj_property name="ElementShortName">addr_core_1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_core_1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/addr_core_2" type="array">
+      <obj_property name="ElementShortName">addr_core_2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_core_2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/mem_data_out" type="array">
+      <obj_property name="ElementShortName">mem_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/mem_data_out_2" type="array">
+      <obj_property name="ElementShortName">mem_data_out_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_out_2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/tag_cache" type="array">
+      <obj_property name="ElementShortName">tag_cache[0:3][29:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_cache[0:3][29:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_controller_1/tag_cache" type="array">
+      <obj_property name="ElementShortName">tag_cache[0:3][29:0]</obj_property>
+      <obj_property name="ObjectShortName">tag_cache[0:3][29:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_data_1/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/dirty" type="logic">
+      <obj_property name="ElementShortName">dirty</obj_property>
+      <obj_property name="ObjectShortName">dirty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_controller_1/dirty" type="logic">
+      <obj_property name="ElementShortName">dirty</obj_property>
+      <obj_property name="ObjectShortName">dirty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_controller_1/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[31:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/copy_back" type="logic">
+      <obj_property name="ElementShortName">copy_back</obj_property>
+      <obj_property name="ObjectShortName">copy_back</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/memory_access" type="logic">
+      <obj_property name="ElementShortName">memory_access</obj_property>
+      <obj_property name="ObjectShortName">memory_access</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_controller_1/memory_access" type="logic">
+      <obj_property name="ElementShortName">memory_access</obj_property>
+      <obj_property name="ObjectShortName">memory_access</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/index" type="logic">
+      <obj_property name="ElementShortName">index</obj_property>
+      <obj_property name="ObjectShortName">index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_controller_1/index" type="logic">
+      <obj_property name="ElementShortName">index</obj_property>
+      <obj_property name="ObjectShortName">index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/tag" type="array">
+      <obj_property name="ElementShortName">tag[26:0]</obj_property>
+      <obj_property name="ObjectShortName">tag[26:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_controller_1/tag" type="array">
+      <obj_property name="ElementShortName">tag[26:0]</obj_property>
+      <obj_property name="ObjectShortName">tag[26:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/offset" type="array">
+      <obj_property name="ElementShortName">offset[3:0]</obj_property>
+      <obj_property name="ObjectShortName">offset[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/MESI" type="array">
+      <obj_property name="ElementShortName">MESI[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MESI[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_controller_1/MESI" type="array">
+      <obj_property name="ElementShortName">MESI[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MESI[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/MESI_new" type="array">
+      <obj_property name="ElementShortName">MESI_new[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MESI_new[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_controller_1/MESI_new" type="array">
+      <obj_property name="ElementShortName">MESI_new[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MESI_new[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/ex_or_shared_o" type="logic">
+      <obj_property name="ElementShortName">ex_or_shared_o</obj_property>
+      <obj_property name="ObjectShortName">ex_or_shared_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/rd_intent" type="logic">
+      <obj_property name="ElementShortName">rd_intent</obj_property>
+      <obj_property name="ObjectShortName">rd_intent</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/wr_intent" type="logic">
+      <obj_property name="ElementShortName">wr_intent</obj_property>
+      <obj_property name="ObjectShortName">wr_intent</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/rd_intent_o" type="logic">
+      <obj_property name="ElementShortName">rd_intent_o</obj_property>
+      <obj_property name="ObjectShortName">rd_intent_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/wr_intent_o" type="logic">
+      <obj_property name="ElementShortName">wr_intent_o</obj_property>
+      <obj_property name="ObjectShortName">wr_intent_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/alu_to_mem_o" type="array">
+      <obj_property name="ElementShortName">alu_to_mem_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_to_mem_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/alu_to_mem" type="array">
+      <obj_property name="ElementShortName">alu_to_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_to_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/old_tag" type="array">
+      <obj_property name="ElementShortName">old_tag[4:0]</obj_property>
+      <obj_property name="ObjectShortName">old_tag[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/mem_addr_src" type="logic">
+      <obj_property name="ElementShortName">mem_addr_src</obj_property>
+      <obj_property name="ObjectShortName">mem_addr_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_controller_1/mem_addr_src" type="logic">
+      <obj_property name="ElementShortName">mem_addr_src</obj_property>
+      <obj_property name="ObjectShortName">mem_addr_src</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_data_1/block" type="array">
+      <obj_property name="ElementShortName">block[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_data_1/word" type="array">
+      <obj_property name="ElementShortName">word[31:0]</obj_property>
+      <obj_property name="ObjectShortName">word[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_data_1/block_c" type="array">
+      <obj_property name="ElementShortName">block_c[127:0]</obj_property>
+      <obj_property name="ObjectShortName">block_c[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_data_1/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_data_1/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_data_1/re" type="logic">
+      <obj_property name="ElementShortName">re</obj_property>
+      <obj_property name="ObjectShortName">re</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_data_1/re" type="logic">
+      <obj_property name="ElementShortName">re</obj_property>
+      <obj_property name="ObjectShortName">re</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/fill_in" type="array">
+      <obj_property name="ElementShortName">fill_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">fill_in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/fill_in_2" type="array">
+      <obj_property name="ElementShortName">fill_in_2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">fill_in_2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/fill_out" type="array">
+      <obj_property name="ElementShortName">fill_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">fill_out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/fill_out_2" type="array">
+      <obj_property name="ElementShortName">fill_out_2[127:0]</obj_property>
+      <obj_property name="ObjectShortName">fill_out_2[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/we" type="logic">
+      <obj_property name="ElementShortName">we</obj_property>
+      <obj_property name="ObjectShortName">we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/main_mem/we_2" type="logic">
+      <obj_property name="ElementShortName">we_2</obj_property>
+      <obj_property name="ObjectShortName">we_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/copy_back" type="logic">
+      <obj_property name="ElementShortName">copy_back</obj_property>
+      <obj_property name="ObjectShortName">copy_back</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/copy_back_2" type="logic">
+      <obj_property name="ElementShortName">copy_back_2</obj_property>
+      <obj_property name="ObjectShortName">copy_back_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_1/pipeline_1/memory_1/cache_controller_1/copy" type="array">
+      <obj_property name="ElementShortName">copy[1:0]</obj_property>
+      <obj_property name="ObjectShortName">copy[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/cache_data_1/cache_data_in" type="array">
+      <obj_property name="ElementShortName">cache_data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Dual_Core/core_number_2/pipeline_core_2/memory_2/sourceB_mem" type="array">
+      <obj_property name="ElementShortName">sourceB_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sourceB_mem[31:0]</obj_property>
+   </wvobject>
+</wave_config>
